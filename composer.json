@@ -1,0 +1,12 @@
+{
+    "name": "thaldos/send-emails-with-office-365",
+    "description": "POC to send emails by SMTP AUTH service provided by Office 365 (see https://learn.microsoft.com/fr-fr/exchange/mail-flow-best-practices/how-to-set-up-a-multifunction-device-or-application-to-send-email-using-microsoft-365-or-office-365)",
+    "require": {
+        "symfony/mailer": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thaldos\\SendEmailsWithOffice365\\": "src/"
+        }
+    }
+}
